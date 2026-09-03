@@ -1,0 +1,50 @@
+public class VariableDeclarationInitialization {
+    public static void main(String[] args) {
+
+        // Declare and initialize one variable per line
+        int score1 = 0;
+        int score2 = 0;
+        int score3 = 0;
+
+        int score4 = 3;
+        int score5 = 0;
+        int score6 = 10;
+
+        byte age = 22;
+        double pi = 3.14159;
+        char option = 'x';
+
+        // Descriptive variable names
+        double exam = 0.0;
+        double quiz = 10.0;
+        double grade = 0.0;
+
+        // Display the values
+        System.out.println("Score 1: " + score1);
+        System.out.println("Score 2: " + score2);
+        System.out.println("Score 3: " + score3);
+        System.out.println("Score 4: " + score4);
+        System.out.println("Score 5: " + score5);
+        System.out.println("Score 6: " + score6);
+
+        System.out.println("Age: " + age);
+        System.out.println("Pi: " + pi);
+        System.out.println("Option: " + option);
+
+        System.out.println("Exam: " + exam);
+        System.out.println("Quiz: " + quiz);
+        System.out.println("Grade: " + grade);
+    }
+}
+Score 1: 0
+Score 2: 0
+Score 3: 0
+Score 4: 3
+Score 5: 0
+Score 6: 10
+Age: 22
+Pi: 3.14159
+Option: x
+Exam: 0.0
+Quiz: 10.0
+Grade: 0.0
